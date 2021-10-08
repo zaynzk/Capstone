@@ -1,0 +1,139 @@
+body { background-color: #FFFFFF;
+       color: #FFFFFF; 
+	   font-family: Lucida Console, Monaco, monospace;
+}
+
+header { font-size: 30px;
+        color: #1D44B8; 
+	text-align: center;
+}
+
+header a { text-decoration: none; }
+header a:link { color: #1D44B8; }
+header a:visited { color: #1D44B8; }
+header a:hover { color: #CFB53B; }
+
+
+/*nav { text-align: center;
+		font-weight: bold;
+		font-size: 100%;
+		margin-top: 0;	
+		padding-top: .2em;
+		padding-bottom: .2em; 
+		letter-spacing: 0.05em;
+ } */
+
+
+nav ul { list-style-type: none;
+		margin: 0;
+		font-size: 1.5em;
+		font-weight: bold;
+		display: flex;
+		padding-top: .2em;
+		padding-bottom: 1em; 
+		letter-spacing: 0.05em;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+}
+	
+nav a { text-decoration: none; }
+nav a:link { color: #132C76; }
+nav a:visited { color: #132C76; }
+nav a:hover { color: #B84E0f; }
+
+main { padding: 1px 20px 20px 20px;
+	/*display: block;*/
+	background-color: #1E45B8;
+	padding-left: 30px;
+	overflow: auto;
+	font-size:1.2em;
+	color: #CFB53B;
+}
+
+h1 { font-family: Lucida Console, Monaco, monospace;
+	letter-spacing: 0.2em;
+	font-weight: bold;
+	padding-top: .4em;
+	padding-bottom: .4em; 
+	margin-bottom: 0;
+}
+
+h2 { color: #CFB53B;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	font-family: Lucida Console, Monaco, monospace;
+	text-align: center;
+}
+
+h3 { color: #CFB53B;
+	font-weight: bold;
+	font-family: Lucida Console, Monaco, monospace;
+}
+
+ul { list-style-type: none;
+	text-align: center;		
+}
+	
+li a {text-decoration: none;}
+li a:link { color: #132C76; }
+li a:hover { color: #CFB53B; }	
+
+footer { 
+	font-size: 90%;
+	font-weight: bold;
+	text-align: center;
+	font-family: Lucida Console, Monaco, monospace;
+	padding: 2em;
+	background-color: #1E45B8;
+}
+
+.center { text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.tab { display: inline-block;
+	margin-left: 40px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+img { border: 10px solid #CFB53B;
+}
+
+@media (max-width: 600px) { 
+	#review_line { display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	nav li {font-size: .6em;
+		padding: auto;
+		text-align: center;
+		font-weight: none;}
+	
+	nav ul { text-align: center;}
+	
+	ul { list-style-type: none;
+		text-align: center;		
+	}
+
+	h1 { font-size: .9em;
+	} 
+
+        h2 { font-size: .75em;
+	}
+
+	p {font-size: .6em;
+	}
+}	
